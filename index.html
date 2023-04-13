@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <title>Monster Hunter</title>
+</head>
+<body>
+    <!--1ra parte de la pagina-->
+    <div class="container-fluid">
+        <nav class="navbar sticky-top navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#carouselExampleCaptions">Monster <span class="text-warning">Hunter</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Atajos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#icon">Novedades</a></li>
+                  <li><a class="dropdown-item" href="#gif">Info</a></li>
+                  <li><a class="dropdown-item" href="#card">Entregas</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#opinion">Opinión</a></li>
+                </ul>
+              </li>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="inicio" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="weapon" href="#">Armas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="mision" href="#">Misiones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="armor" href="#">Armaduras</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="npc" href="#">Personajes</a>
+                  </li>               
+                </ul>                
+              </div>
+            </div>
+          </nav>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/mh1.jpg" class="d-block w-100" alt="Foto de Hunter World">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Bienvenido a Monster Hunter World</h5>
+                <p>Unete a una inmensa comunidad de habla hispana</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/mh2.jpg" class="d-block w-100" alt="Foto de Hunter Rise">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Prueba el nuevo DLC</h5>
+                <p>Nuevas bestias, nuevos mapas, nuevos items</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/mh3.jpg" class="d-block w-100" alt="Foto de Hunter 4">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Sal de caza con amigos</h5>
+                <p>Ahora es más fácil conectarse con personas de todo el mundo</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    
+
+    <!--2da parte de la pagina-->
+    <div class="container" id="icon">
+      <div class="row row-4 m-5 text-center">
+          <div class="col-4 ">
+              <i class="bi bi-calendar-event display-3"></i><br>
+              <div class="p h4">Nuevos eventos</div>
+              <p>Estamos emocionados de anunciar que tenemos nuevos eventos programados en el juego. Prepárate para disfrutar de nuevas aventuras, recompensas emocionantes y desafíos aún mayores. ¡No puedes perderte esta gran oportunidad de explorar todo lo nuevo que hemos preparado para ti! Mantente atento a más actualizaciones y detalles sobre los próximos eventos. ¡Nos vemos en el juego!</p>
+          </div>
+          <div class="col-4 ">
+              <i class="bi bi-badge-4k-fill display-3"></i><br>
+              <div class="p h4">Nuevo pack de texturas 4k</div> 
+              <p>Nos complace informarte que ahora está disponible un nuevo pack de texturas 4K para el juego. Este paquete mejorará significativamente los gráficos del juego, permitiéndote disfrutar de una experiencia de juego mucho más realista y detallada en tu pantalla. No esperes más y descarga el paquete de texturas 4K hoy mismo para llevar tu juego al siguiente nivel. ¡Disfruta!</p>
+          </div>
+          <div class="col-4">
+              <i class="bi bi-bug display-3"></i><br>
+              <div class="p h4">Bugs corregidos</div>
+              <p>Los bugs de nuestro juego han sido solucionados con éxito. Ahora, podrán disfrutar del juego sin interrupciones ni problemas técnicos. Esperamos que disfruten de una mejor experiencia de juego y agradecemos mucho su paciencia y comprensión durante este proceso. ¡Que disfruten jugando!</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="text-center">
+         "¡Nunca te rindas en la caza! Cada monstruo que derrotes te acerca más al siguiente desafío!"
+    </div>
+    <div class="text-center text-muted">
+      "El camino del cazador nunca es fácil, pero la satisfacción de vencer a una bestia imposible de derrotar no tiene precio"
+    </div>
+
+    <!--3ra parte de la pagina-->
+    <div class="container- m-5" id="gif">
+      <!--primera fila-->  
+      <div class="row row-cols-1 row-cols-md-2 bg-dark text-white p-4">
+            <div class="col m-auto">
+                <h4>El dragón negro <span class="text-info"> Alatreon</span></h4>
+                <p>Es considerado uno de los enemigos más poderosos del juego debido a sus habilidades elementales. Alatreon tiene la capacidad de alternar entre cuatro elementos: fuego, hielo, trueno y dragón. Puede usar estas habilidades para lanzar ataques a distancia, así como para atacar cuerpo a cuerpo con picos y cola afilados. Al enfrentarse a Alatreon, los jugadores deben estar preparados para luchar contra diversas habilidades elementales y adaptarse rápidamente al cambio de elementos<p>
+                  </div>
+            <div class="col m-auto">
+               <img src="video/mh-gif1.gif" class="h-100 w-100" alt="alatreon gif">
+            </div>
+        </div>
+      
+        <!--segunda fila-->   
+        <div class="row row-cols-1 row-cols-md-2 bg-white text-dark p-4">
+            <div class="col m-auto">
+                <img src="video/mh-gif2.gif" class="h-100 w-100" alt="safijiva gif">
+            </div>
+            <div class="col m-auto">
+                <h4><span class="text-danger">Safijiva</span> la amenaza roja</h4>
+                <p>Es una versión mejorada y más grande del monstruo Xeno'Jiva que habita en el continente. Safi'Jiva apareció por primera vez en diciembre de 2019 como una actualización del juego para los jugadores. Es un dragón anciano con un cuerpo dorado brillante y se alimenta de la energía vital de otros seres vivos. También tiene un ataque de rayo muy poderoso que puede causar daños significativos a los jugadores. Por lo tanto, los cazadores deben estar preparados estratégicamente para enfrentar a este monstruo</p> 
+            </div>
+        </div>
+      
+      <!--tercera fila-->   
+      <div class="row row-cols-1 row-cols-md-2 bg-dark text-white p-4">
+          <div class="col m-auto">
+              <h4>La leyenda inmortal <span class="text-warning">Fatalis</span></h4>
+              <p>Es un dragón oscuro y poderoso, conocido por los cazadores por su resistencia y peligrosidad. Su principal debilidad es su cabeza, pero para llegar a ella, los cazadores deben enfrentarse a una serie de habilidades y movimientos mortales, lo que lo convierte en uno de los jefes más difíciles en la historia de Monster Hunter</p>
+            </div>
+          <div class="col m-auto">
+              <img src="video/mh-gif3.gif" class="h-100 w-100" alt="fatalis gif">
+          </div>
+      </div>
+    
+      
+    <!--4ta parte de la pagina-->
+    <div class="container">
+    <div class="row row-cols-1 row-cols-md-4 shadow-lg m-5" id="card">
+      <!--card 1-->
+      <div class="col">
+        <div class="card h-100 shadow-lg">
+          <img src="img/mh-card1.jpg"  class="card-img-top h-100" alt="World">
+          <div class="card-body"><hr>
+            <h5 class="card-title d-flex justify-content-around">MH World</h5>
+            <p class="text-muted"> Fecha de salida: 2018</p>
+            <p class="card-text">La mejor entrega Monster Hunter World es un videojuego de acción y aventura desarrollado y publicado por Capcom. El objetivo del juego es cazar monstruos en una variedad de entornos vastos y bellos. Los jugadores pueden reunir recursos, mejorar sus armas y armaduras, y personalizar su avatar mientras realizan misiones para cazar criaturas peligrosas.</p>
+            <div class="d-flex justify-content-around h3">
+              <i class="bi bi-facebook text-info"></i>
+              <i class="bi bi-instagram text-warning"></i>
+              <i class="bi bi-youtube text-danger"></i>
+              <i class="bi bi-twitter text-info"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--card 2-->
+      <div class="col">
+        <div class="card h-100 shadow-lg">
+          <img src="img/mh-card2.jpg" class="card-img-top h-100" alt="Rise">
+          <div class="card-body"><hr>
+            <h5 class="card-title d-flex justify-content-around">MH Rise</h5>
+            <p class="text-muted"> Fecha de salida: 2021</p>
+            <p class="card-text">Monster Hunter Rise es un juego de acción y aventuras desarrollado y publicado por Capcom. El juego se desarrolla en el mundo fantástico de Kamura Village, donde el jugador asume el papel de un cazador de monstruos que debe luchar contra diferentes criaturas peligrosas para proteger a la gente del pueblo. El juego presenta una amplia variedad de armas. </p>
+            <div class="d-flex justify-content-around h3">
+              <i class="bi bi-facebook text-info"></i>
+              <i class="bi bi-instagram text-warning"></i>
+              <i class="bi bi-youtube text-danger"></i>
+              <i class="bi bi-twitter text-info"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--card 3-->
+      <div class="col">
+        <div class="card h-100 shadow-lg">
+          <img src="img/mh-card3.jpg" class="card-img-top h-100" alt="Generations">
+          <div class="card-body"><hr>
+            <h5 class="card-title d-flex justify-content-around">MH Generations</h5>
+            <p class="text-muted"> Fecha de salida: 2016</p>
+            <p class="card-text"> Atentos, una de las principales características de Monster Hunter Generations es la introducción del sistema de Estilos de Caza, que permite a los jugadores personalizar aún más sus movimientos y habilidades. También se incluye una función llamada "Artes de Caza" que otorga habilidades adicionales al jugador con un límite de uso.</p>
+            <div class="d-flex justify-content-around h3">
+              <i class="bi bi-facebook text-info"></i>
+              <i class="bi bi-instagram text-warning"></i>
+              <i class="bi bi-youtube text-danger"></i>
+              <i class="bi bi-twitter text-info"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!--card 4-->
+      <div class="col">
+        <div class="card h-100 shadow-lg">
+          <img src="img/mh-card4.jpg" class="card-img-top h-100 "  alt="3">
+          <div class="card-body"><hr>
+            <h5 class="card-title d-flex justify-content-around">MH 3</h5>
+            <p class="text-muted"> Fecha de salida: 2011</p>
+            <p class="card-text">En esta entrega todos los jugadores pueden invitar a otros usuarios en línea para cooperar en la caza, intercambiar equipo y compartir recursos. El juego cuenta con gráficos impresionantes, mecánicas de juego sólidas y una gran variedad de monstruos y ambientes para explorar. En general, Monster Hunter 3 es un juego emocionante y retador a la vieja escuela y con toques de nostalgia.</p>
+            <div class="d-flex justify-content-around h3">
+              <i class="bi bi-facebook text-info"></i>
+              <i class="bi bi-instagram text-warning"></i>
+              <i class="bi bi-youtube text-danger"></i>
+              <i class="bi bi-twitter text-info"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--5ta parte de la pagina-->
+    <footer class="bg-dark text-white p-5">
+    <div class="container" id="opinion">
+    <div class="row">
+      <div class="col text-start">
+        <div class="h4">Monster <span class="text-warning">Hunter</span></div>
+        <br>
+        <div class="p">Proyecto Personal</div>
+        <div class="p">Karlen Jesús Fernández Bisquet</div>
+        <div class="p">Año 2023</div>
+      </div>
+      <div class="col text-start m-3">
+        <input type="name" class="form-control" placeholder="Tu nombre">
+        <br>
+        <input type="correo" class="form-control" placeholder="Tu correo electrónico">
+        <br>
+        <textarea name="" id="" class="b form-control" placeholder="Tu opinión" cols="20" rows="3"></textarea>
+        <br>
+        <button class="btn border text-black btn-warning">Submit</button>
+      </div>
+    </div>
+    </div>
+    </footer>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
